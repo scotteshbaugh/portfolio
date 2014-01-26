@@ -208,6 +208,13 @@ iframe {
 	height: 100%;
 }
 
+#quote {
+	margin: 0 auto 0 auto;
+	padding: 220px 0px 0 0px;
+	width: 960px;
+	height: 100%;
+}
+
 #content h1 {
 	margin: 0;
 }
