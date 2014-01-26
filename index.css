@@ -3,25 +3,17 @@
 /* Typefaces */
 
 @font-face {
-	font-family: 'Akzidenz-Grotesk BQ';
-	src: url('/fonts/akzidenz-grotesk_regular.otf')
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'Droid Serif', serif;
 }
 
 @font-face {
-	font-family: 'Aller';
-	src: url:('/fonts/aller-regular.ttf')
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
 }
 
 @font-face {
-	font-family: 'Droid Serif';
-	src: url('/fonts/droid-serif_regular.ttf')
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'Open Sans', sans-serif;
 }
+
 
 
 
@@ -32,11 +24,11 @@ html, body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Aller', helvetica, arial, sans serif;
+	font-family: 'Open sans', sans serif;
 }
 
 h1 {
-	font-weight: bold;
+	font-weight: 700;
 	word-spacing: 80%;
 	font-size: 40px;
 	color: #20222c;
@@ -44,7 +36,7 @@ h1 {
 
 
 h2 {
-	font-weight: normal;
+	font-weight: 400;
 	word-spacing: 80%;
 	font-size: 18px;
 	color: #20222c;
@@ -53,21 +45,21 @@ h2 {
 
 
 h3 {
-	font-weight: normal;
+	font-weight: 400;
 	word-spacing: 80%;
 	font-size: 16px;
 	color: #20222c;
 }
 
 h4 {
-	font-weight: normal;
+	font-weight: 400;
 	word-spacing: 80%;
 	font-size: 12px;
 	color: #20222c;
 }
 
 p {
-	font-weight: normal;
+	font-weight: 400;
 	word-spacing: 80%;
 	font-size: 12px;
 	line-height: 18px;
@@ -210,7 +202,7 @@ iframe {
 
 #quote {
 	margin: 0 auto 0 auto;
-	padding: 220px 0px 0 0px;
+	padding: 180px 0px 0 0px;
 	width: 960px;
 	height: 100%;
 }
