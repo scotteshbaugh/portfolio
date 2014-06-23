@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Univers';
+    src: url(/fonts/UniversLTStd.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal; /* font-style selector controls italics and obliques */
+}
+
+@font-face {
+    font-family: 'Univers';
+    src: url(/fonts/UniversLTStd-Bold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Univers';
+    src: url(/fonts/UniversLTStd-Light.otf) format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+html {
+    height: 1080px;
+    overflow: scroll;
+    width: 1920px;
+}
+
+p {
+    color: #4F4F4F;
+    font-weight: 100;
+}
+
+h1 {
+    color: #4F4F4F;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    color: #4F4F4F;
+    font-weight: 700;
+}
+
+h3 {
+    color: #4F4F4F;
+}
+
+body {
+    background: url(/images/background.png) center center no-repeat;
+    height: 1080px;
+    overflow: hidden;
+    width: 1920px;
+}
+
+#points-of-interest {
+    height: 1080px;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 1920px;
+}
+
+#points-of-interest img {
+    opacity: .5;
+}
+
+.point-of-interest {
+    background-clip: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 65px;
+    position: absolute;
+    width: 65px;
+}
+
+.point-of-interest:hover {
+    background-position: -65px 0;
+    cursor: pointer;
+}
+
+.point-of-interest.active {
+    background-position: -65px 0;
+}
+
+.point-of-interest.large {
+    width: 130px;
+    height: 130px;
+}
+
+.point-of-interest.large.active {
+    background-position: -130px 0;
+}
+
+.point-of-interest.large:hover {
+    background-position: -130px 0;
+}
+
+.point-of-interest p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.point-of-interest.large p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+#current-point-of-interest-description {
+    background: #ffffff;
+    background-clip: padding-box;
+    border: 2px solid #4f4f4f;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 20px;
+    opacity:  .92;
+    padding: 30px 30px 30px 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+#current-point-of-interest-description p {
+    margin: 0;
+}
+
+.hotspot {
+    background-clip: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    height: 45px;
+    position: absolute;
+    width: 45px;
+}
+
+.hotspot:hover {
+    cursor: pointer;
+}
+
+.descriptions {
+    display: none;
+}
+
+.pre-process {
+    display: none;
+}
+
+.master-planning-process{
+    display: none;
+}
+
+.comprehensive-planning-process {
+    display: none;
+}
+
+.neighborhood-planning-process {
+    display: none;
+}
+
+.overall-planning-process {
+    display: none;
+}
+
+.information {
+    display: none;
+}
+
+.phase-selector {
+    background-clip: padding-box;
+    background-color: transparent;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border: none;
+    display: block;
+    height: 65px;
+    line-height: 30px;
+    outline: none;
+    position: absolute;
+    text-align: center;
+    width: 65px;
+}
+
+.phase-selector.active {
+    background-position: -65px 0;
+}
+
+#phase-left, #phase-right {
+    background: #000000;
+    opacity: 0.2;
+    position: absolute;
+    z-index: 2;
+}
+
+#current-phase-description {
+    background: #FFFFFF;
+    border: 2px solid #4f4f4f;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 20px;
+    opacity:  .92;
+    padding: 30px 30px 30px 30px;
+    position: absolute;
+    z-index: 3;
+}
+
+#introduction {
+    background: #FFFFFF;
+    height: 200px;
+    left: 1400px;
+    position: absolute;
+    top: 800px;
+    width: 400px;
+}
