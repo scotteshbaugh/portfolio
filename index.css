@@ -14,6 +14,44 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+@font-face {
+    font-family: 'brauer_neuebold';
+    src: url('fonts/brauerneue-bold-webfont.eot');
+    src: url('fonts/brauerneue-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brauerneue-bold-webfont.woff') format('woff'),
+         url('fonts/brauerneue-bold-webfont.ttf') format('truetype'),
+         url('fonts/brauerneue-bold-webfont.svg#brauer_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FranklinGothicFS';
+    src: url('fonts/franklingothic-book-webfont.eot');
+    src: url('fonts/franklingothic-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/franklingothic-book-webfont.woff') format('woff'),
+         url('fonts/franklingothic-book-webfont.ttf') format('truetype'),
+         url('fonts/franklingothic-book-webfont.svg#franklingothic-book-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FranklinGothicFS';
+    src: url('fonts/franklingothic-medium-webfont.eot');
+    src: url('fonts/franklingothic-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/franklingothic-medium-webfont.woff') format('woff'),
+         url('fonts/franklingothic-medium-webfont.ttf') format('truetype'),
+         url('fonts/franklingothic-medium-webfont.svg#franklingothic-medium-webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 
 /* Global Styles */
 
@@ -22,14 +60,15 @@ html, body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Open sans', sans serif;
+	font-family: "FranklinGothicFS", sans serif;
 }
 
 h1 {
-	font-weight: 700;
+	font-weight: 400;
 	word-spacing: 80%;
-	font-size: 40px;
+	font-size: 36px;
 	color: #20222c;
+        margin: 0;
 }
 
 
@@ -52,17 +91,17 @@ h3 {
 h4 {
 	font-weight: 400;
 	word-spacing: 80%;
-	font-size: 12px;
+	font-size: 14px;
 	color: #20222c;
 }
 
 p {
 	font-weight: 400;
 	word-spacing: 80%;
-	font-size: 12px;
-	line-height: 18px;
+	font-size: 15px;
+	line-height: 22px;
 	color: #20222c;
-	font-family: 'Droid Serif', serif;
+	font-family: Georgia, serif;
 }
 
 section {
@@ -92,32 +131,43 @@ footer img {
 ul {
 	font-weight: normal;
 	word-spacing: 80%;
-	font-size: 12px;
-	line-height: 16px;
+	font-size: 18px;
+	line-height: 21px;
 	color: #20222c;
 }
 
+ul li ul li {
+	font-weight: normal;
+	word-spacing: 80%;
+	font-size: 15px;
+	line-height: 18px;
+	color: #20222c;
+	font-family: Georgia, serif;
+}
+
+
+
 a:link {
-    color: #20222c;
-    text-decoration: none;
+        color: #20222c;
+        text-decoration: none;
 }
 
 
 a:visited {
-    color: #20222c;
-    text-decoration: none;
+        color: #20222c;
+        text-decoration: none;
 }
 
 
 a:hover {
-    color: #6a7293;
-    text-decoration: none;
+        color: #6a7293;
+        text-decoration: none;
 }
 
 
 a:active {
-    color: #6a7293;
-    text-decoration: none;
+        color: #6a7293;
+        text-decoration: none;
 }
 
 img {
@@ -129,6 +179,96 @@ iframe {
 }
 
 
+
+
+
+/* Navigation */
+
+
+nav {
+    	padding: 0px 60px 0 60px;
+        margin: 0 auto;
+        width: 960px;
+}
+
+#menu-container {
+        position: fixed;
+        width: 100%;
+        background: #FFFFFF;
+        height: 70px;
+        opacity: .96;
+}
+
+#site-navigation {
+	display: block;
+	font-family: "FranklinGothicFS", sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+#site-navigation ul {
+        background: #FFFFFF;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 0px;
+
+}
+
+#site-navigation li {
+	color: #20222c;
+        background: #FFFFFF;
+	display: block;
+	float: left;
+	padding: 30px 60px 0px 0px;
+	position: relative;
+	text-decoration: none;
+}
+
+#site-navigation li h2 {
+        padding: 0 0 0 20px;
+}
+
+#site-navigation li:hover {
+	@include transition(background, 0.3s);
+	background: #FFFFFF;
+	cursor: pointer;
+}
+
+#site-navigation ul li ul {
+	background: #FFFFFF;
+	visibility: hidden;
+	float: left;
+        min-width: 220px;
+	position: absolute;
+        transition: visibility 0.15s ease-in;
+        padding: 15px 0 0 0;
+	left: 0;
+}
+
+#site-navigation ul li:hover > ul,
+#site-navigation ul li ul:hover {
+         visibility: visible;
+}
+
+#site-navigation ul li ul li {
+	clear: both;
+	padding: 10px 20px 10px 20px;
+        width: 100%;
+}
+
+#site-navigation ul li ul li:hover {
+	background: #74b7e4;
+}
+
+
+#menu {
+	background: #FFFFFF;
+	padding: 0;
+	height: 100%;
+}
+
+
+
 /* Local Styles */
 
 
@@ -138,64 +278,12 @@ iframe {
 }
 
 #logotype {
-	font-size: 24px;
-	margin: 0 auto;
-	padding-top: 20px;
-	height: 20px;
-	width: 960px;
+    font-family: 'brauer_neuebold';
 }
-
 
 #logotype a:hover {
     color: #20222c;
     text-decoration: none;
-}
-
-nav div {
-	width: 960px;
-	height: 100%;
-	padding: 0 60px 0 60px;
-	margin: 0 auto 0 auto;
-}
-
-
-.menu {
-	position: fixed;
-	background: #FFFFFF;
-	opacity: .9;
-	padding: 0;
-	width: 100%;
-	height: 150px;
-}
-
-.menu ul {
-	display: block;
-	width: 960px;
-	margin: 0 auto;
-	padding: 0;
-}
-
-.menu ul li {
-	display: block;
-	float: left;
-	padding: 0px 20px 0px 0px;
-	margin: 0;
-	width: 200px;
-	height: 120px;
-}
-
-.menu ul li ul {
-	width: 200px;
-}
-
-.menu ul li ul li {
-	display: block;
-	height: 15px;
-}
-
-.menu h3 {
-	margin: 0;
-	padding: 20px 0px 0px 0px;
 }
 
 #content {
@@ -205,15 +293,17 @@ nav div {
 	height: 100%;
 }
 
-#quote {
+#grid {
 	margin: 0 auto 0 auto;
-	padding: 220px 0px 0 0px;
+	padding: 200px 0px 0 0px;
 	width: 960px;
 	height: 100%;
 }
 
-#quote h1 {
-	padding: 0 0 0 0;
+
+
+#grid h1 {
+	padding: 100px 30px 0 0;
 	font-weight: 700;
 	word-spacing: 80%;
 	font-size: 30px;
@@ -367,7 +457,7 @@ nav div {
         max-width: 100%;
 	padding: 0 0 20px 0;
 }
-	
+
 /* 900px, floated left, two columnns */
 
 
@@ -413,6 +503,3 @@ nav div {
         float: right;
         max-width: 20%;
 }
-
-
-
