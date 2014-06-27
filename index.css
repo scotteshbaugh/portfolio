@@ -131,8 +131,11 @@ footer img {
 ul {
 	font-weight: normal;
 	word-spacing: 80%;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 15px;
+	font-family: Georgia, serif;
+	line-height: 22px;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
 	color: #20222c;
 }
 
@@ -145,16 +148,14 @@ ul li ul li {
 	font-family: Georgia, serif;
 }
 
-
-
 a:link {
-        color: #20222c;
+        color: #916a6a;
         text-decoration: none;
 }
 
 
 a:visited {
-        color: #20222c;
+        color: #916a6a;
         text-decoration: none;
 }
 
@@ -208,11 +209,15 @@ nav {
 
 #site-navigation ul {
         background: #FFFFFF;
+        font-size: 18px;
+        line-height: 21px;
+        color: #20222c;
 	list-style: none;
 	margin: 0;
 	padding: 0 0 0 0px;
 
 }
+
 
 #site-navigation li {
 	color: #20222c;
@@ -252,6 +257,10 @@ nav {
 
 #site-navigation ul li ul li {
 	clear: both;
+	color: #20222c;
+	font-family: Georgia, serif;
+	font-size: 15px;
+	line-height: 18px;
 	padding: 10px 20px 10px 20px;
         width: 100%;
 }
@@ -329,177 +338,153 @@ nav {
 }
 
 
-#cover {
-}
 
 .header {
 	padding: 30px 0 30px 0;
 	width: 960px;
 }
 
-/* 300px, floated left, one columnn */
 
-.l300-1 {
-        float: left;
+
+/* 300px */
+
+.a {
         width: 300px;
 	padding: 0 0 30px 0;
 }
 
-.l300-1 h4 {
+a. img {
         float: left;
+        max-width: 90%;
+	padding: 0 20px 20px 0;
+}
+
+.a h4 {
         max-width: 90%;
 }
 
-.l300-1 img {
-        float: left;
-        max-width: 90%;
-}
-
-.l300-1 p {
-        float: left;
-        max-width: 90%;
-	padding: 0 20px 0 0;
-}
-
-/* 300px, floated right, one columnn */
-
-.r300-1 {
-        float: right;
-        width: 300px;
-	padding: 0 0 30px 0;
-}
-
-.r300-1 h4 {
-        float: left;
-        max-width: 90%;
-}
-
-.r300-1 img {
-        float: left;
-        max-width: 90%;
-}
-
-.r300-1 p {
-        float: left;
+.a p {
         max-width: 90%;
 	padding: 0 20px 0 0;
 }
 
-/* 600px, floated left, one columnn */
 
-.l600-1 {
-        overflow: hidden;
+/* 400px */
+
+.b {
+        width: 450px;
+        padding:  0 0 30px 0;
+}
+
+.b img {
         float: left;
+        max-width: 90%;
+	padding: 0 20px 20px 0;
+}
+
+
+/* 600px */
+
+.c {
 	padding: 0 0 30px 0;
         width: 600px;
 }
 
-.l600-1 img {
+.c img {
         float: left;
-        max-width: 100%;
-	padding: 0 0 30px 0;
+        max-width: 90%;
+	padding: 0 20px 20px 0;
 }
 
-/* 600px, floated left, two columnns */
+/* 960px */
 
-.l600-2 {
-        overflow: hidden;
-        float: left;
-        width: 600px
+.d {
+        padding: 0 0 30px 0;
+        width: 900px;
 }
 
-.l600-2 img {
+.d img {
         float: left;
-        margin: 0 20px 20px 0;
+        max-width: 90%;
+	padding: 0 20px 20px 0;
+}
+
+
+
+/* One Column for Image */
+
+.oneColumn img {
+        float: left;
+        max-width: 90%;
+	padding: 0 20px 20px 0;
+}
+
+/* Two Columns for Images */
+
+.twoColumn img {
+        float: left;
         max-width: 45%;
+        padding: 0 20px 20px 0;
 }
 
-/* 600px, floated left, four columnns */
+/* Three Columns for Images */
 
-.l600-4 {
-        overflow: hidden;
+.threeColumn img {
         float: left;
-        width: 600px
+        max-width: 31%;
+        padding: 0 20px 20px 0;
 }
 
-.l600-4 img {
+/* Four Columns for Images */
+
+.fourColumn img {
         float: left;
         padding: 0 20px 20px 0;
         max-width: 20%;
 }
 
-/* 600px, floated right, one columnn */
+/* Float Left */
 
-.r600-1 {
+.floatLeft {
+        float: left;
         overflow: hidden;
+}
+
+/* Float Right */
+
+.floatRight {
         float: right;
-	padding: 0 0 20px 0;
-        width: 600px;
-}
-
-.r600-1 img {
-        float: left;
-        max-width: 100%;
-	padding: 0 0 20px 0;
-}
-
-/* 900px, floated left, one columnn */
-
-.l900-1 {
         overflow: hidden;
-        float: left;
-	padding: 0 0 20px 0;
-        width: 960px
-}
-
-.l900-1 img {
-        float: left;
-        max-width: 100%;
-	padding: 0 0 20px 0;
-}
-
-/* 900px, floated left, two columnns */
-
-
-.l900-2 {
-	overflow: hidden;
-	float: left;
-	padding: 0 0 20px 0;
-	width: 960px;
-}
-
-.l900-2 img {
-        float: left;
-        margin: 0 20px 0 0;
-        max-width: 45%;
-}
-
-/* 900px, floated left, three columnns */
-
-.l900-3 {
-        overflow: hidden;
-        float: left;
-	padding: 0 0 20px 0;
-        width: 960px
-}
-
-.l900-3 img {
-        float: left;
-        margin: 0 20px 0 0;
-        max-width: 31%;
 }
 
 
-/* 900px, floated left, four columnns */
 
-.l900-4 {
-        overflow: hidden;
-        float: left;
-        width: 960px
-	padding: 20px 0 20px 0;
-}
 
-.l900-4 img {
-        float: right;
-        max-width: 20%;
-}
+
+
+
+
+.floatLLL
+
+.floatLRL
+
+.floatLRR
+
+.floatRLL
+
+.floatRRR
+
+.floatRRL
+
+.floatRLR
+
+
+a = 300
+b = 400
+c = 600
+d = 900
+
+.aaaa
+.aaab
+.abcd
+.abbd
