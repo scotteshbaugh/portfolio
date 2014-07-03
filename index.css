@@ -33,7 +33,7 @@
          url('fonts/franklingothic-book-webfont.woff') format('woff'),
          url('fonts/franklingothic-book-webfont.ttf') format('truetype'),
          url('fonts/franklingothic-book-webfont.svg#franklingothic-book-webfont') format('svg');
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
 
 }
@@ -45,7 +45,7 @@
          url('fonts/franklingothic-medium-webfont.woff') format('woff'),
          url('fonts/franklingothic-medium-webfont.ttf') format('truetype'),
          url('fonts/franklingothic-medium-webfont.svg#franklingothic-medium-webfont') format('svg');
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
 
 }
@@ -64,7 +64,7 @@ html, body {
 }
 
 h1 {
-	font-weight: 400;
+	font-weight: 700;
 	word-spacing: 80%;
 	font-size: 36px;
 	color: #20222c;
@@ -73,7 +73,7 @@ h1 {
 
 
 h2 {
-	font-weight: 400;
+	font-weight: 700;
 	word-spacing: 80%;
 	font-size: 18px;
 	color: #20222c;
@@ -89,7 +89,7 @@ h3 {
 }
 
 h4 {
-	font-weight: 400;
+	font-weight: 700;
 	word-spacing: 80%;
 	font-size: 14px;
 	color: #20222c;
@@ -179,7 +179,24 @@ iframe {
 	float: inherit;
 }
 
+#button {
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border: solid 2px;
+    border-color: #916a6a;
+}
 
+#button:visited {
+    border-color: #916a6a;
+}
+
+#button:hover {
+    border-color: #6a7293;
+}
+
+#button:active {
+    border-color: #6a7293;
+}
 
 
 
@@ -392,7 +409,7 @@ a. img {
 
 .c img {
         float: left;
-        max-width: 90%;
+        max-width: 80%;
 	padding: 0 20px 20px 0;
 }
 
@@ -400,7 +417,7 @@ a. img {
 
 .d {
         padding: 0 0 30px 0;
-        width: 900px;
+        width: 960px;
 }
 
 .d img {
