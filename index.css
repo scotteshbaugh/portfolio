@@ -2,17 +2,6 @@
 
 /* Typefaces */
 
-@font-face {
-	font-family: 'Droid Serif', serif;
-}
-
-@font-face {
-	font-family: 'Open Sans', sans-serif;
-}
-
-@font-face {
-	font-family: 'Open Sans', sans-serif;
-}
 
 @font-face {
     font-family: 'brauer_neuebold';
@@ -129,6 +118,7 @@ footer img {
 }
 
 ul {
+    	color: #20222c;
 	font-weight: normal;
 	word-spacing: 80%;
 	font-size: 15px;
@@ -136,7 +126,6 @@ ul {
 	line-height: 22px;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
-	color: #20222c;
 }
 
 ul li ul li {
@@ -180,22 +169,22 @@ iframe {
 }
 
 #button {
-    display: inline-block;
-    padding: 10px 10px 10px 10px;
-    border: solid 2px;
-    border-color: #916a6a;
+        border: solid 2px;
+        border-color: #916a6a;
+        display: inline-block;
+        padding: 10px 10px 10px 10px;
 }
 
 #button:visited {
-    border-color: #916a6a;
+        border-color: #916a6a;
 }
 
 #button:hover {
-    border-color: #6a7293;
+        border-color: #6a7293;
 }
 
 #button:active {
-    border-color: #6a7293;
+        border-color: #6a7293;
 }
 
 
@@ -219,12 +208,12 @@ nav {
 
 #site-navigation {
 	display: block;
-	font-family: "FranklinGothicFS", sans-serif;
 	font-size: 24px;
 	font-weight: normal;
 }
 
 #site-navigation ul {
+        font-family: FranklinGothicFS;
         background: #FFFFFF;
         font-size: 18px;
         line-height: 21px;
@@ -237,6 +226,7 @@ nav {
 
 
 #site-navigation li {
+        font-family: FranklinGothicFS;
 	color: #20222c;
         background: #FFFFFF;
 	display: block;
@@ -275,15 +265,21 @@ nav {
 #site-navigation ul li ul li {
 	clear: both;
 	color: #20222c;
-	font-family: Georgia, serif;
+	font-family: FranklinGothicFS;
 	font-size: 15px;
 	line-height: 18px;
 	padding: 10px 20px 10px 20px;
         width: 100%;
 }
 
+
+#site-navigation ul li ul li a {
+    color: #20222c;
+}
+
 #site-navigation ul li ul li:hover {
-	background: #74b7e4;
+	background: #6a7293;
+
 }
 
 
@@ -305,6 +301,12 @@ nav {
 
 #logotype {
     font-family: 'brauer_neuebold';
+    padding: 0 0 0 0;
+}
+
+#logotype a {
+    color: #20222c;
+    text-decoration: none;
 }
 
 #logotype a:hover {
@@ -329,13 +331,16 @@ nav {
 
 
 #grid h1 {
-	padding: 100px 30px 0 0;
+	padding: 100px 30px 10px 0;
 	font-weight: 700;
 	word-spacing: 80%;
 	font-size: 30px;
 	color: #20222c;
 	line-height: 36px;
 }
+
+#grid img:hover {
+    opacity:  .6;
 }
 
 #content h1 {
