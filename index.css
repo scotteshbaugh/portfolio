@@ -40,7 +40,6 @@
 }
 
 
-
 /* Global Styles */
 
 
@@ -494,7 +493,7 @@ a. img {
 
 
 
-
+/*
 
 .floatLLL
 
@@ -519,4 +518,27 @@ d = 900
 .aaaa
 .aaab
 .abcd
-.abbd
+.abbd */
+
+
+/*
+#test {
+    padding: 150px 0 0 180px;
+}
+
+#test h1 {
+    color: #FFFFFF;
+    line-height: 1.7;
+    font-size: 48px;
+}
+
+#test h2 {
+    color: #FFFFFF;
+    line-height: 1.7;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+*/
+
+
