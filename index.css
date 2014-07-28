@@ -376,6 +376,15 @@ nav {
 }
 
 
+#caption img {
+    padding: 0 20px 0 0;
+}
+
+#caption {
+    font-size: 14px;
+    padding: 5px 0 0 0;
+}
+
 
 /* 300px */
 
@@ -540,5 +549,3 @@ d = 900
 }
 
 */
-
-
