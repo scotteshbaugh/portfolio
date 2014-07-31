@@ -498,7 +498,9 @@ a. img {
 }
 
 
-
+.spacer /*Terrible name, make sure to rename later*/ {
+    padding: 0 0 7px 0;
+}
 
 
 
