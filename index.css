@@ -245,12 +245,13 @@ nav {
 	text-decoration: none;
 }
 
+
 #site-navigation li h2 {
         padding: 0 0 0 20px;
 }
 
 #site-navigation li:hover {
-	@include transition(background, 0.3s);
+	@include transition(background, 0.15s);
 	background: #FFFFFF;
 	cursor: pointer;
 }
@@ -298,6 +299,9 @@ nav {
 	height: 100%;
 }
 
+#menu a {
+
+}
 
 
 /* Local Styles */
