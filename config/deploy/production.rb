@@ -41,3 +41,5 @@ forward_agent: true,
 #   }
 set :deploy_to, '/home/scottesh/portfolio'
 set :tmp_dir, '/home/scottesh/tmp'
+
+set :branch, 'ux-portfolio'
