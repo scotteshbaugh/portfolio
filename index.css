@@ -518,52 +518,11 @@ a. img {
     padding: 0 0 7px 0;
 }
 
-
-
-/*
-
-.floatLLL
-
-.floatLRL
-
-.floatLRR
-
-.floatRLL
-
-.floatRRR
-
-.floatRRL
-
-.floatRLR
-
-
-a = 300
-b = 400
-c = 600
-d = 900
-
-.aaaa
-.aaab
-.abcd
-.abbd */
-
-
-/*
-#test {
-    padding: 150px 0 0 180px;
+.shrink img /*another terrible name, make sure to rename later */ {
+    max-width: 60%;
+    padding: 25px 0 20px 0;
 }
 
-#test h1 {
-    color: #FFFFFF;
-    line-height: 1.7;
-    font-size: 48px;
+#dontjudgeme {
+    padding: 120px 0 40px 0;
 }
-
-#test h2 {
-    color: #FFFFFF;
-    line-height: 1.7;
-    font-size: 28px;
-    font-weight: 400;
-}
-
-*/
