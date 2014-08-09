@@ -213,6 +213,7 @@ nav {
         background: #FFFFFF;
         height: 70px;
         opacity: .96;
+        z-index: 100;
 }
 
 #site-navigation {
