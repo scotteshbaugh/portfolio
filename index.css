@@ -115,6 +115,16 @@ footer img {
 	padding: 0 20px 10px 0;
 }
 
+.break {
+    	width: 700px;
+	padding: 100px 0px 0;
+        margin: 0 auto;
+        border-width: 1px;
+	border-top-style: solid;
+	border-color: #20222c;
+	float: inherit;
+}
+
 ul {
     	color: #20222c;
 	font-weight: normal;
@@ -211,7 +221,7 @@ nav {
         position: fixed;
         width: 100%;
         background: #FFFFFF;
-        height: 70px;
+        height: 50px;
         opacity: .96;
         z-index: 100;
 }
@@ -241,7 +251,7 @@ nav {
         background: #FFFFFF;
 	display: block;
 	float: left;
-	padding: 30px 60px 0px 0px;
+	padding: 15px 60px 0px 0px;
 	position: relative;
 	text-decoration: none;
 }
@@ -320,12 +330,17 @@ nav {
 
 #logotype a {
     color: #20222c;
+    font-size: 32px;
     text-decoration: none;
 }
 
 #logotype a:hover {
     color: #20222c;
     text-decoration: none;
+}
+
+#logotype h1 {
+    font-size: 10px;
 }
 
 #content {
@@ -527,7 +542,3 @@ a. img {
 #dontjudgeme {
     padding: 120px 0 40px 0;
 }
-
-
-
-/*jhsdjkhdsfjkhdfskjhfdskjhdfsjkhfds*/
